@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 
 class node {
@@ -14,6 +15,8 @@ class node {
         this -> right = NULL;
     }
 };
+
+
 
 node* buildTree(node* root){
     cout<< "enter the data : "<<endl;
@@ -36,6 +39,8 @@ node* buildTree(node* root){
 int main(){
     node* root = NULL;
     root = buildTree(root);
+
+
 
     return 0;
 }
