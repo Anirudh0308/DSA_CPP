@@ -1,10 +1,7 @@
-// //  Rat In A Maze
-
-// // Link:- https://www.naukri.com/code360/problems/rat-in-a-maze_1215030?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0
-
+//  //  Rat In A Maze
 // #include <bits/stdc++.h>
-
-// bool isSafe(int newx, int newy,vector<vector<bool>> &vis, vector<vector<int>> &arr, int n){
+// using namespace std;
+//  bool isSafe(int newx, int newy,vector<vector<bool>> &vis, vector<vector<int>> &arr, int n){
 //     if((newx >=0 && newx < n ) && (newy >=0 && newy < n) &&
 //      vis[newx][newy] != 1 && arr[newx][newy] == 1){
 //         return true;
